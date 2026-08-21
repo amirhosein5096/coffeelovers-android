@@ -26,11 +26,10 @@ jobs:
           gradle-version: '8.9'
 
       - name: Build Debug APK
-        working-directory: CoffeeLovers-GitHub-APK-Build
         run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: CoffeeLovers-APK
-          path: CoffeeLovers-GitHub-APK-Build/app/build/outputs/apk/debug/*.apk
+          name: CoffeeLovers-v1.3-APK
+          path: app/build/outputs/apk/debug/*.apk
