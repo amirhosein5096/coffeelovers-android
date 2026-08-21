@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.CoffeeLovers" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#FFF9F3</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+    </style>
+</resources>
